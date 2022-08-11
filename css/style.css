@@ -10,7 +10,7 @@ body {
     max-width: 970px;
     width: 100%;
     margin: 0 auto;
-    border: 4px solid rgb(255, 0, 0);
+    /* border: 4px solid rgb(255, 0, 0); */
 }
 
 .menu_box {
@@ -30,7 +30,6 @@ body {
 .menu___link {
     color:#525252;
     text-decoration: none;
-    /* border: 1px solid black; */
 }
 
 .main_title {
@@ -51,9 +50,19 @@ body {
     background: #828282;
 }
 
-.about_header {
+h2 {
     font-size: 1.9rem;
     text-align: center;
+    color: #070707;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.about_header {
     margin: 100px 0 35px 0; 
 }
 
@@ -65,3 +74,31 @@ body {
 .about>p:last-child {
     margin: 15px 0 190px 0;
 }
+
+.skills_header {
+    margin: 100px 0 20px 0;
+}
+
+.skills>p {
+    margin: 0 0 50px 0;
+}
+ 
+.skills_img {
+    width: 100%;
+    border: 3px solid black; 
+}
+
+.skills_img>img {
+    display: inline-block;
+    margin: 0 90px 25px 90px;
+}
+
+.skills_img>img:first-child {
+    margin-left: 45px;
+}
+
+.skills_img>img:last-child {
+    margin-right: 60px;
+}
+
+/* text-align: center; */
