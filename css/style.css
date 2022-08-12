@@ -4,14 +4,13 @@ html,
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    
 }
 
 .wrapper {
     max-width: 970px;
     width: 100%;
     margin: 0 auto;
-    /* border: 4px solid rgb(255, 0, 0); */
+    border: 4px solid rgb(255, 0, 0);
 }
 
 .menu_box {
@@ -134,4 +133,18 @@ p {
 .skills__ratings>img:last-child {
     margin-right: 0px;
     margin-left: 15px;
+}
+
+.portfolio>h2 {
+    margin: 100px 0 50px 0;
+}
+
+figcaption {
+    margin: 40px 0 70px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+figcaption:last-child {
+    margin-bottom: 100px;
 }
