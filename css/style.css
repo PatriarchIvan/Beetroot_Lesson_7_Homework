@@ -4,6 +4,7 @@ html,
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    
 }
 
 .wrapper {
@@ -57,7 +58,6 @@ h2 {
 }
 
 p {
-    text-align: center;
     font-weight: 400;
     line-height: 25px;
 }
@@ -79,26 +79,59 @@ p {
     margin: 100px 0 20px 0;
 }
 
-.skills>p {
+.skills p {
+    font-weight: 400;
     margin: 0 0 50px 0;
+    text-align: center;
 }
  
-.skills_img {
+.skills__img {
     width: 100%;
-    border: 3px solid black; 
+    /* border: 3px solid black;  */
 }
 
-.skills_img>img {
+.skills__img>img {
     display: inline-block;
-    margin: 0 90px 25px 90px;
+    margin: 0 95px 25px 100px;
 }
 
-.skills_img>img:first-child {
+.skills__img>img:first-child {
     margin-left: 45px;
 }
 
-.skills_img>img:last-child {
+.skills__img>img:last-child {
+    margin-left: 60px;
     margin-right: 60px;
 }
 
-/* text-align: center; */
+.skills__tille>span {
+    display: inline-block;
+    text-align: center;
+    margin: 0 85px 60px 115px;
+    font-size: 0.78rem;
+    color:#828282;
+    font-weight: 700;
+}
+
+.skills__tille>span:first-child {
+    margin-left: 48px;
+}
+
+.skills__tille>span:last-child {
+    margin-left: 70px;
+    margin-right: 60px;
+}
+
+.skills__ratings>img {
+    display: inline-block;
+    margin: 0 45px 100px 60px; 
+}
+
+.skills__ratings>img:first-child {
+    margin-left: 0px;
+}
+
+.skills__ratings>img:last-child {
+    margin-right: 0px;
+    margin-left: 15px;
+}
