@@ -27,50 +27,55 @@
             <!-- ABOUT -->
             <section class="about" id="about">
                 <h2 class="about_header">About me</h2>
-                <p>Hi, I'm Yevhen – Junior Front-End developer from Mariupol.<br>
+                <p class="about__text">Hi, I'm Yevhen – Junior Front-End developer from Mariupol.<br>
                     I'm interested in programming and making web-sites.</p>
-                <p>I'm studying at courses "Front-End<br>
+                <p class="about__text">I'm studying at courses "Front-End<br>
                     development" in Beetroot Academy.</p>
-                <p>Ready to implement excellent projects<br>
+                <!-- should add here class __text -->
+                <p class="about__text">Ready to implement excellent projects<br>
                     with wonderful people.</p>
             </section>
             <!-- SKILLS -->
             <section class="skills" id="skills">
                 <h2 class="skills_header">Skills</h2>
-                <p>I work in such programs as</p>
-                <div class="skills__img">
-                    <img src="./img/icons/Ps.png" alt="photoshop">
-                    <img src="./img/icons/ai.png" alt="illustrator">
-                    <img src="./img/icons/ae.png" alt="photoshop">
-                    <img src="./img/icons/fig.png" alt="illustrator">
-                </div>
-                <div class="skills__tille">
-                    <span>Adobe<br>Photoshop</span>
-                    <span>Adobe<br>Illustartor</span>
-                    <span>Adobe<br>After Effects</span>
-                    <span>Figma</span>
-                </div>
-                <div class="skills__ratings">
-                    <img src="./img/icons/ps_rating.png" alt="">
-                    <img src="./img/icons/ai_rating.png" alt="">
-                    <img src="./img/icons/ae_rating.png" alt="">
-                    <img src="./img/icons/fig_rating.png" alt="">
+                <p class="skills_text">I work in such programs as</p>
+                <div class="skills_wrapper">
+                    <div class="skills__card">
+                        <img class="skills___picture" src="./img/icons/Ps.png" alt="ps">
+                        <span class="skills___text">Adobe<br>Photoshop</span>
+                        <img class="skills___rating" src="./img/icons/ps_rating.png" alt="">
+                    </div>
+                    <div class="skills__card">
+                        <img class="skills___picture" src="./img/icons/ai.png" alt="ai">
+                        <span class="skills___text">Adobe<br>Illustartor</span>
+                        <img class="skills___rating" src="./img/icons/ai_rating.png" alt="">
+                    </div>
+                    <div class="skills__card">
+                        <img class="skills___picture" src="./img/icons/ae.png" alt="ae">
+                        <span class="skills___text">Adobe<br>After Effects</span>
+                        <img class="skills___rating" src="./img/icons/ae_rating.png" alt="">
+                    </div>
+                    <div class="skills__card">
+                        <img class="skills___picture" src="./img/icons/fig.png" alt="illustrator">
+                        <span class="skills___text">Figma</span>
+                        <img class="skills____rating"src="./img/icons/fig_rating.png" alt="">
+                    </div>
                 </div>
             </section>
             <!-- PORTOLIO -->
             <section class="portfolio" id="portfolio">
                 <h2>Portfolio</h2>
                 <img src="./img/photos/portfolio_1.png" alt="portfolio_1">
-                <figcaption>Online fashion store -<br> Homepage</figcaption>
+                <figcaption><a href="#" class="portfolio_links">Online fashion store -<br> Homepage</a></figcaption>
                 <img src="./img/photos/portfolio_2.png" alt="portfolio_2">
-                <figcaption>Reebok Store - Concept</figcaption>
+                <figcaption><a href="#" class="portfolio_links">Reebok Store - Concept</a></figcaption>
                 <img src="./img/photos/portfolio_3.png" alt="portfolio_3">
-                <figcaption>Braun Landing Page - Concept</figcaption>
+                <figcaption><a href="#" class="portfolio_links">Braun Landing Page - Concept</a></figcaption>
             </section>
             <!-- CONTACTS -->
             <section class="contacts" id="contacts">
-                <h2>Contacts</h2>
-                <p>Want to know more or just chat?<br>You are welcome!</p>
+                <h2 class="contacts_title">Contacts</h2>
+                <p class="contacts_text">Want to know more or just chat?<br>You are welcome!</p>
                 <div class="buttons">
                     <button class="send_btn">Send message</button>
                     <div class="buttons_links">
@@ -78,7 +83,7 @@
                         <button><img src="./img/icons/instagram.svg" alt="instagram"></button>
                         <button><img src="./img/icons/behance.svg" alt="behance"></button>
                         <button><img src="./img/icons/Vector.svg" alt="dribble"></button>
-                </div>
+                    </div>
                 </div>
             </section>
         </main>
